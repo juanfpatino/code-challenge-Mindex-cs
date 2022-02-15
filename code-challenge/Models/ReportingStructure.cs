@@ -56,7 +56,7 @@
 
         public override string ToString()
         {
-            return "{" + "employee: " + getEmployee() + ", numberOfReports: " + getNumberOfReports();
+            return "{" + "employee: " + getEmployee() + ", numberOfReports: " + getNumberOfReports() + "}";
         }
 
     }
