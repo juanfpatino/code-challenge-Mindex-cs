@@ -47,7 +47,7 @@ namespace challenge.Controllers
         [HttpPut("{id}")]
         public IActionResult ReplaceCompensation(String id, [FromBody] Compensation newComp)
         {
-            _logger.LogDebug($"Recieved employee update request for '{id}'");
+            _logger.LogDebug($"Recieved employee compensation update request for '{id}'");
 
             var existingComp = _compensationService.GetById(id);
             if (existingComp == null)

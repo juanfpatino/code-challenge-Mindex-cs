@@ -1,0 +1,17 @@
+﻿using challenge.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace challenge.Services
+{
+    public interface IReportingStructureService
+    {
+
+        ReportingStructure GetById(String id);
+        ReportingStructure Create(ReportingStructure rep);
+        ReportingStructure Replace(ReportingStructure originalRep, ReportingStructure newRep);
+
+    }
+}
