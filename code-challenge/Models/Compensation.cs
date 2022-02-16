@@ -14,9 +14,7 @@
 
         public void setSalary(float salary)
         {
-
             this.salary = salary;
-
         }
 
         public float getSalary() { 
