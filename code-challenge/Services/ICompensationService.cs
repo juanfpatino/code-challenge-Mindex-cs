@@ -11,7 +11,6 @@ namespace challenge.Services
 
         Compensation GetById(String id);
         Compensation Create(Compensation comp);
-        Compensation Replace(Compensation originalComp, Employee newComp);
-        void Replace(Compensation existingComp, Compensation newComp);
+        Compensation Replace(Compensation originalComp, Compensation newComp);
     }
 }
