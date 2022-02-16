@@ -51,8 +51,7 @@ namespace challenge.Services
                     _compRepository.SaveAsync().Wait();
 
                     _compRepository.Add(newComp);
-                    // overwrite the new id with previous employee id
-                    newComp.getEmployee().EmployeeId = originalComp.getEmployee().EmployeeId;
+
                 }
                 _compRepository.SaveAsync().Wait();
             }

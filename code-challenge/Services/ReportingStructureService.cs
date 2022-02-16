@@ -54,8 +54,7 @@ namespace challenge.Services
                     _reportingStructureRepository.SaveAsync().Wait();
 
                     _reportingStructureRepository.Add(newRep);
-                    // overwrite the new id with previous employee id
-                    newRep.getEmployee().EmployeeId = originalRep.getEmployee().EmployeeId;
+
                 }
                 _reportingStructureRepository.SaveAsync().Wait();
             }
